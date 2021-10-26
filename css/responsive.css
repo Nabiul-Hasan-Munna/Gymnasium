@@ -1,0 +1,988 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  /* nav bar responsive start */
+
+  .navbar {
+    top: 0;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar .img {
+    width: auto;
+    height: auto;
+    background: transparent;
+    margin-left: 20px;
+    position: static;
+    transform: translateY(0) skewX(0);
+    padding: 0;
+    border: 0;
+  }
+  .navbar .img img {
+    transform: skewX(0);
+  }
+  .navbar ul li {
+    text-align: center;
+    margin: 0;
+    background: #000000;
+  }
+  .navbar ul li a {
+    padding: 16px 0;
+  }
+
+  /* nav bar responsive end */
+
+  /* banner responsive start */
+
+  #banner-part .banner-items .overlay {
+    padding: 110px 0 75px 0;
+  }
+  #banner-part .banner-items .overlay .text {
+    width: 100%;
+    text-align: center;
+  }
+  #banner-part .banner-items .overlay .text::after,
+  #banner-part .banner-items .overlay .text::before {
+    display: none;
+  }
+  #banner-part .banner-items .overlay h3::after,
+  #banner-part .banner-items .overlay h3::before {
+    display: none;
+  }
+  #banner-part .banner-items .overlay p {
+    width: auto;
+    line-height: 20px;
+  }
+  #banner-part .banner-items .overlay p::after,
+  #banner-part .banner-items .overlay p::before {
+    display: none;
+  }
+  #banner-part .banner-items .overlay h3 {
+    font-size: 23px;
+  }
+  #banner-part .banner-items .overlay h2 {
+    font-size: 45px;
+    margin: 10px 0;
+  }
+  #banner-part .banner-items .overlay a {
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+    padding: 8px 20px;
+  }
+  /* banner responsive end */
+
+  /* about part responsive start */
+  #about-part {
+    padding-top: 60px;
+  }
+  #about-part .text {
+    height: auto;
+    margin-top: 25px;
+  }
+  #about-part .text p.one,
+  #about-part .text p.two {
+    width: auto;
+  }
+  /* about part responsive end */
+
+  /* gallery part responsive start */
+  #gallery-part {
+    padding-top: 60px;
+  }
+  /* gallery part responsive end */
+
+  /* team part responsive start */
+  #team-part {
+    padding-top: 60px;
+    margin-bottom: 0;
+  }
+  #team-part .title {
+    margin-bottom: 20px;
+  }
+  #team-part .card {
+    margin-bottom: 180px;
+    transition: 0.4s;
+  }
+  #team-part .card:hover {
+  }
+  #team-part .last-card:hover {
+    margin-bottom: 0;
+  }
+  #team-part .card .img {
+    height: auto;
+  }
+  #team-part .card:hover .img {
+    top: 0;
+  }
+  #team-part .card .text {
+    border: 1px solid #dddddd;
+    border-top: 0;
+  }
+  #team-part .card:hover .text {
+    bottom: 0;
+    padding-bottom: 0;
+  }
+  #team-part .card .text p {
+    position: static;
+    transform: none;
+    bottom: 0;
+    opacity: 1;
+    padding-bottom: 20px;
+  }
+
+  /* team part responsive end */
+
+  /* testi part responsive start */
+  #testi-part {
+    padding-top: 60px;
+  }
+  #testi-part .feed-b .text {
+    width: auto;
+    text-align: center;
+    line-height: 20px;
+  }
+  #testi-part .testi .feed-b .text {
+    width: auto;
+    text-align: justify;
+  }
+  /* testi part responsive end */
+
+  /* membership part responsive start */
+  #membership-part {
+    padding-top: 60px;
+  }
+  #membership-part .card {
+    margin-top: 20px;
+  }
+  /* membership part responsive end */
+
+  /* counter part responsive start */
+  #counter-part {
+    margin-top: 60px;
+  }
+  #counter-part .overlay {
+    padding: 20px 0;
+  }
+  #counter-part .overlay .mar {
+    margin: 0;
+  }
+  #counter-part .card {
+    font-size: 18px;
+    text-align: center;
+  }
+  #counter-part .card .name {
+    font-size: 13px;
+  }
+  /* counter part responsive end */
+
+  /* our class part responsive start */
+  #classes-part {
+    padding-top: 60px;
+  }
+  #classes-part .colorful-tab-menu {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  #classes-part .colorful-tab-wrapper ul li a {
+    font-size: 13px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+  #classes-part .colorful-tab-content ul li {
+    width: 49%;
+    padding: 15px 0;
+  }
+  #classes-part .colorful-tab-content ul li:hover {
+    transform: scale(1);
+  }
+  #classes-part .colorful-tab-content ul li h3 {
+    font-size: 15px;
+  }
+
+  /* our class part responsive end */
+
+  /* partners part responsive start */
+  #partners-part {
+    padding-top: 60px;
+  }
+  #partners-part .members .img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #partners-part .members ul li {
+    display: inline-block;
+  }
+  #partners-part .members ul {
+    text-align: center;
+  }
+  #partners-part .members ul li {
+    margin-left: 5px;
+  }
+  #partners-part .members ul li button {
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    position: relative;
+  }
+  #partners-part .members ul li button::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background: #e23e38;
+    content: "";
+    opacity: 0;
+    transition: 0.4s;
+  }
+  #partners-part .members ul .slick-active button {
+    border: 2px solid transparent;
+  }
+  #partners-part .members ul .slick-active button::after {
+    opacity: 1;
+  }
+  /* partners part responsive end */
+
+  /* footer part responsive start */
+  #footer-part {
+    margin-top: 60px;
+  }
+  /* footer part responsive end */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* banner responsive start */
+
+  #banner-part .banner-items .overlay {
+    padding: 110px 0 75px 0;
+  }
+  #banner-part .banner-items .overlay .text {
+    width: 100%;
+    text-align: center;
+  }
+  #banner-part .banner-items .overlay .text::after,
+  #banner-part .banner-items .overlay .text::before {
+    display: none;
+  }
+  #banner-part .banner-items .overlay h3::after,
+  #banner-part .banner-items .overlay h3::before {
+    display: none;
+  }
+  #banner-part .banner-items .overlay p {
+    width: auto;
+    line-height: 20px;
+  }
+  #banner-part .banner-items .overlay p::after,
+  #banner-part .banner-items .overlay p::before {
+    display: none;
+  }
+  #banner-part .banner-items .overlay h3 {
+    font-size: 23px;
+  }
+  #banner-part .banner-items .overlay h2 {
+    font-size: 45px;
+    margin: 10px 0;
+  }
+  #banner-part .banner-items .overlay a {
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+    padding: 8px 20px;
+  }
+  /* banner responsive end */
+
+  /* nav bar responsive start */
+
+  .navbar {
+    top: 0;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar .img {
+    width: auto;
+    height: auto;
+    background: transparent;
+    margin-left: 20px;
+    position: static;
+    transform: translateY(0) skewX(0);
+    padding: 0;
+    border: 0;
+  }
+  .navbar .img img {
+    transform: skewX(0);
+  }
+  .navbar ul li {
+    text-align: center;
+    margin: 0;
+    background: #000000;
+  }
+  .navbar ul li a {
+    padding: 16px 0;
+  }
+
+  /* nav bar responsive end */
+
+  /* about part responsive start */
+  #about-part {
+    padding-top: 60px;
+  }
+  #about-part .text {
+    height: auto;
+    margin-top: 25px;
+  }
+  #about-part .text p.one,
+  #about-part .text p.two {
+    width: auto;
+  }
+  #about-part .video {
+    margin-top: 60px;
+  }
+  /* about part responsive end */
+
+  /* gallery part responsive start */
+
+  #gallery-part {
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  /* gallery part responsive end */
+
+  /* team part responsive start */
+  #team-part {
+    padding-top: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  #team-part .title {
+    margin-bottom: 20px;
+  }
+  #team-part .card {
+    margin-top: 18px;
+    margin-bottom: 115px;
+    transition: 0.4s;
+  }
+  #team-part .card .text p {
+    width: auto;
+    left: 0;
+  }
+  /* team part responsive end */
+
+  /* testi part responsive start */
+  #testi-part {
+    padding-top: 60px;
+  }
+  #testi-part .feed-b .text {
+    width: auto;
+    text-align: center;
+    line-height: 20px;
+  }
+  /* testi part responsive end */
+
+  /* membership part responsive start */
+  #membership-part {
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  #membership-part .card {
+    margin-top: 20px;
+  }
+  /* membership part responsive end */
+
+  /* counter part responsive start */
+  #counter-part {
+    margin-top: 60px;
+  }
+  #counter-part .overlay {
+    padding: 20px 0;
+  }
+  #counter-part .overlay .mar {
+    margin: 0;
+  }
+  #counter-part .card {
+    font-size: 18px;
+    text-align: center;
+  }
+  #counter-part .card .name {
+    font-size: 13px;
+  }
+  /* counter part responsive end */
+
+  /* our class part responsive start */
+  #classes-part {
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  #classes-part .colorful-tab-menu {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  #classes-part .colorful-tab-wrapper ul li a {
+    padding: 15px;
+  }
+  #classes-part .colorful-tab-content ul li {
+    width: 47%;
+    padding: 15px 0;
+  }
+  #classes-part .colorful-tab-content ul li:hover {
+    transform: scale(1.1);
+  }
+  #classes-part .colorful-tab-content ul li h3 {
+    font-size: 15px;
+  }
+
+  /* our class part responsive end */
+
+  /* partners part responsive start */
+  #partners-part {
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  #partners-part .members .img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #partners-part .members ul li {
+    display: inline-block;
+  }
+  #partners-part .members ul {
+    text-align: center;
+  }
+  #partners-part .members ul li {
+    margin-left: 5px;
+  }
+  #partners-part .members ul li button {
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    position: relative;
+  }
+  #partners-part .members ul li button::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background: #e23e38;
+    content: "";
+    opacity: 0;
+    transition: 0.4s;
+  }
+  #partners-part .members ul .slick-active button {
+    border: 2px solid transparent;
+  }
+  #partners-part .members ul .slick-active button::after {
+    opacity: 1;
+  }
+  /* partners part responsive end */
+
+  /* footer part responsive start */
+  #footer-part {
+    margin-top: 60px;
+  }
+  #footer-part .flicker-card .img img {
+    width: 81px;
+  }
+  /* footer part responsive end */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* banner responsive start */
+
+  #banner-part .banner-items .overlay {
+    padding: 110px 0 75px 0;
+  }
+  #banner-part .banner-items .overlay .text {
+    width: 100%;
+    text-align: center;
+  }
+  #banner-part .banner-items .overlay .text::after {
+    left: 80px;
+    height: 172px;
+  }
+  #banner-part .banner-items .overlay .text::before {
+    right: 80px;
+    height: 172px;
+  }
+  #banner-part .banner-items .overlay h3::after {
+    left: 80px;
+  }
+  #banner-part .banner-items .overlay h3::before {
+    right: 80px;
+  }
+  #banner-part .banner-items .overlay p {
+    width: 500px;
+  }
+  #banner-part .banner-items .overlay p::after {
+    left: -15px;
+    bottom: -40px;
+  }
+  #banner-part .banner-items .overlay p::before {
+    right: -15px;
+    bottom: -40px;
+  }
+  #banner-part .banner-items .overlay h3 {
+    font-size: 23px;
+  }
+  #banner-part .banner-items .overlay h2 {
+    font-size: 45px;
+    margin: 10px 0;
+  }
+  #banner-part .banner-items .overlay a {
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+    padding: 8px 20px;
+  }
+  /* banner responsive end */
+
+  /* nav bar responsive start */
+
+  .navbar {
+    top: 0;
+  }
+  .navbar-brand {
+    margin: 0;
+  }
+  .navbar .img {
+    width: auto;
+    height: auto;
+    background: transparent;
+    margin-left: 20px;
+    position: static;
+    transform: translateY(0) skewX(0);
+    padding: 0;
+    border: 0;
+  }
+  .navbar .img img {
+    transform: skewX(0);
+  }
+  .navbar ul li {
+    text-align: center;
+    margin: 0;
+    background: #000000;
+  }
+  .navbar ul li a {
+    padding: 16px 0;
+  }
+
+  /* nav bar responsive end */
+
+  /* about part responsive start */
+  #about-part {
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+  #about-part .video {
+    margin-top: 25px;
+  }
+  #about-part .text {
+    height: auto;
+    margin-top: 0;
+  }
+  #about-part .text p.one,
+  #about-part .text p.two {
+    width: auto;
+  }
+  /* about part responsive end */
+
+  /* gallery part responsive start */
+  #gallery-part {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+  .gallery {
+    margin-top: 40px;
+  }
+  /* gallery part responsive end */
+
+  /* team part responsive start */
+  #team-part {
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top: 60px;
+  }
+  #team-part .title {
+    margin-bottom: 20px;
+  }
+  #team-part .card {
+    margin-top: 18px;
+    margin-bottom: 115px;
+    transition: 0.4s;
+  }
+  #team-part .card .text p {
+    width: auto;
+  }
+  /* team part responsive end */
+
+  /* testi part responsive start */
+  #testi-part {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+  #testi-part .testi .feed-b .text {
+    width: auto;
+    text-align: left;
+  }
+  /* testi part responsive end */
+
+  /* membership part responsive start */
+  #membership-part {
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+  #membership-part .card {
+    margin-top: 20px;
+  }
+  /* membership part responsive end */
+
+  /* counter part responsive start */
+  #counter-part .overlay {
+    padding: 20px 0;
+  }
+  #counter-part .overlay .mar {
+    margin: 0;
+  }
+  #counter-part .card {
+    font-size: 18px;
+    text-align: center;
+  }
+  #counter-part .card .name {
+    font-size: 13px;
+  }
+  /* counter part responsive end */
+
+  /* our class part responsive start */
+  #classes-part {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+  #classes-part .colorful-tab-menu {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  #classes-part .colorful-tab-content ul li {
+    width: 31.7%;
+    padding: 15px 0;
+  }
+  #classes-part .colorful-tab-content ul li:hover {
+    transform: scale(1.1);
+  }
+  #classes-part .colorful-tab-content ul li h3 {
+    font-size: 15px;
+  }
+
+  /* our class part responsive end */
+
+  /* partners part responsive start */
+  #partners-part {
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+  #partners-part .members .img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #partners-part .members ul li {
+    display: inline-block;
+  }
+  #partners-part .members ul {
+    text-align: center;
+  }
+  #partners-part .members ul li {
+    margin-left: 5px;
+  }
+  #partners-part .members ul li button {
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    position: relative;
+  }
+  #partners-part .members ul li button::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background: #e23e38;
+    content: "";
+    opacity: 0;
+    transition: 0.4s;
+  }
+  #partners-part .members ul .slick-active button {
+    border: 2px solid transparent;
+  }
+  #partners-part .members ul .slick-active button::after {
+    opacity: 1;
+  }
+  #partners-part .members .next {
+    left: -20px;
+  }
+  #partners-part .members .prev {
+    right: -20px;
+  }
+  /* partners part responsive end */
+
+  /* footer part responsive start */
+  #footer-part {
+    margin-top: 40px;
+  }
+  #footer-part .flicker-card .img img {
+    width: 81px;
+  }
+  /* footer part responsive end */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* nav bar responsive start */
+
+  .navbar .img {
+    width: 210px;
+    height: 60px;
+  }
+  .navbar .img img {
+    width: 100%;
+  }
+  .navbar.navbar-expand-lg.menu.fixed .img img {
+    height: 100%;
+  }
+
+  /* nav bar responsive start */
+
+  /* banner responsive start */
+
+  #banner-part .banner-items .overlay {
+    padding: 110px 0 75px 0;
+  }
+  #banner-part .banner-items .overlay .text {
+    width: 74.2%;
+    text-align: center;
+  }
+  #banner-part .banner-items .overlay .text::after {
+    left: 80px;
+    height: 172px;
+  }
+  #banner-part .banner-items .overlay .text::before {
+    right: 80px;
+    height: 172px;
+  }
+  #banner-part .banner-items .overlay h3::after {
+    left: 80px;
+  }
+  #banner-part .banner-items .overlay h3::before {
+    right: 80px;
+  }
+  #banner-part .banner-items .overlay p {
+    width: 500px;
+  }
+  #banner-part .banner-items .overlay p::after {
+    left: -15px;
+    bottom: -40px;
+  }
+  #banner-part .banner-items .overlay p::before {
+    right: -15px;
+    bottom: -40px;
+  }
+  #banner-part .banner-items .overlay h3 {
+    font-size: 23px;
+  }
+  #banner-part .banner-items .overlay h2 {
+    font-size: 45px;
+    margin: 10px 0;
+  }
+  #banner-part .banner-items .overlay a {
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+    padding: 8px 20px;
+  }
+  /* banner responsive end */
+
+  /* gallery part responsive start */
+
+  /* gallery part responsive end */
+
+  /* about part responsive start */
+  #about-part {
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+  #about-part .video {
+    height: 333px;
+  }
+  #about-part .text {
+    height: auto;
+  }
+  #about-part .text p.one,
+  #about-part .text p.two {
+    width: auto;
+  }
+  /* about part responsive end */
+
+  /* gallery part responsive start */
+  #gallery-part {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+  .gallery {
+    margin-top: 50px;
+  }
+  /* gallery part responsive end */
+
+  /* team part responsive start */
+  #team-part {
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top: 60px;
+  }
+  #team-part .title {
+    margin-bottom: 20px;
+  }
+  #team-part .card {
+    margin-top: 18px;
+    margin-bottom: 115px;
+    transition: 0.4s;
+  }
+
+  #team-part .card .text p {
+    width: auto;
+    left: 0;
+    padding: 0 5px;
+  }
+  #team-part .card:hover .text p {
+    bottom: 96px;
+  }
+  /* team part responsive end */
+
+  /* testi part responsive start */
+  #testi-part {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+  #testi-part .testi .feed-b .text {
+    width: auto;
+    text-align: left;
+  }
+  /* testi part responsive end */
+
+  /* membership part responsive start */
+  #membership-part {
+    margin-top: 0px;
+    padding-top: 60px;
+  }
+  #membership-part .card {
+    margin-top: 20px;
+  }
+  /* membership part responsive end */
+
+  /* counter part responsive start */
+  #counter-part .overlay {
+    padding: 20px 0;
+  }
+  #counter-part .overlay .mar {
+    margin: 0;
+  }
+  #counter-part .card {
+    font-size: 18px;
+    text-align: center;
+  }
+  #counter-part .card .name {
+    font-size: 13px;
+  }
+  /* counter part responsive end */
+
+  /* our classes part responsive start */
+  #classes-part {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+  #classes-part .colorful-tab-content ul li {
+    width: 19.2% !important;
+  }
+  /* our classes part responsive end */
+
+  /* partners part responsive start */
+  #partners-part {
+    margin-top: 00px;
+    padding-top: 60px;
+  }
+  #partners-part .members .img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #partners-part .members ul li {
+    display: inline-block;
+  }
+  #partners-part .members ul {
+    text-align: center;
+  }
+  #partners-part .members ul li {
+    margin-left: 5px;
+  }
+  #partners-part .members ul li button {
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid #000000;
+    outline: none;
+    position: relative;
+  }
+  #partners-part .members ul li button::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background: #e23e38;
+    content: "";
+    opacity: 0;
+    transition: 0.4s;
+  }
+  #partners-part .members ul .slick-active button {
+    border: 2px solid transparent;
+  }
+  #partners-part .members ul .slick-active button::after {
+    opacity: 1;
+  }
+  #partners-part .members .next {
+    left: -20px;
+  }
+  #partners-part .members .prev {
+    right: -20px;
+  }
+  /* partners part responsive end */
+
+  /* footer part responsive start */
+  #footer-part {
+    margin-top: 40px;
+  }
+  #footer-part .opening-card ul li p span {
+    width: 65%;
+  }
+  #footer-part .flicker-card .img img {
+    width: auto;
+  }
+  #footer-part .contact-card .social-icon i {
+    margin-right: 8px;
+  }
+
+  /* footer part responsive end */
+}
